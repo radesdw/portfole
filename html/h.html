@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Портфолио</title>
+    <link rel="stylesheet" href="code.css">
+    <link href="styles/style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <header>
+        <h1>Моє Портфоліо</h1>
+        <nav>
+            <a href="#about">Про мене</a>
+            <a href="#projects">Проекти</a>
+            <a href="#reviews">Відгуки</a>
+            <a href="#contact" id="contactLink">Контакти</a>
+        </nav>
+    </header>
+    <section id="about">
+        <h2>Про мене</h2>
+        <p>Маю досвід створення інтерактивних веб-додатків із використанням сучасних технологій та фреймворків.
+            Володію глибокими знаннями HTML, CSS, JavaScript, а також досвід роботи з React (або інші фреймворки, якщо
+            потрібно), що дозволяє створювати адаптивні та кросбраузерні інтерфейси.
+            Прагну реалізовувати UX/UI рішення, які покращують взаємодію користувачів з продуктом. Відкритий до нових
+            технологій і завжди готовий до вдосконалення своїх навичок.</p>
+    </section>
+    <section id="rew">
+        <div class="reviews" id="reviews">
+            <h3>Відгуки</h3>
+            <div class="review">
+                <img src="https://media.discordapp.net/attachments/712384808843739250/1284914458963214336/IMG_20240915_193050.jpg?ex=6717d357&is=671681d7&hm=3f7770d00b727676f84d3b5b937752ea1b725f60be7b881d47efce3e1bba0c48&=&format=webp&width=507&height=676"
+                    alt="Аватар пользователя">
+                <strong>Сінявін Радомір</strong>
+                <p>Чудова робота! Дуже задоволений результатом.</p>
+            </div>
+            <div class="review">
+                <img src="https://cdn.discordapp.com/attachments/774376428396347452/1298045263633584219/image.png?ex=6718225b&is=6716d0db&hm=e0a2c96f7a0b05a711920a2297075e84fc2a30ad94ab0a47857a18914af39ffd&"
+                    alt="Аватар пользователя">
+                <strong>Фендріков Костянтин</strong>
+                <p>Професіонал своєї справи. Рекомендую!</p>
+            </div>
+            <div class="review">
+                <img src="https://cdn.discordapp.com/attachments/774376428396347452/1298045478684065813/image.png?ex=6718228e&is=6716d10e&hm=42e9d15c9bb080e4f6418ca79d8f3089fe3f92395659b16ab118cff3f8c05ad1&"
+                    alt="Аватар пользователя">
+                <strong>Людина</strong>
+                <p>Робота виконана швидко та якісно.</p>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>Мої проекты</h2>
+        <div class="project">
+            <h3>Проект 1</h3>
+            <img src="https://fruntend.com/storage/photos/1/articles/cool-tech-portfolios/Robbi-Leonardi.jpg">
+            <p>Роббі Леонардо – моя перша гра з дуже інтригуючим сюжетом.</p>
+        </div>
+        <div class="project">
+            <h3>Проект 2</h3>
+            <p></p>
+        </div>
+        <div class="project">
+            <h3>Проект 3</h3>
+            <img src="https://www.imagecms.net/wp-content/uploads/images/blog/blog_2/corporate-1.jpg">
+            <p>Тут можна побачити мої навички в дизайні (точніше їх відсутність).</p>
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Контакты</h2>
+        <p>Если у вас есть вопросы, не стесняйтесь связаться со мной!</p>
+        <button id="showFormButton">Связаться со мной</button>
+        <div id="contactForm">
+            <input type="text" id="name" placeholder="Ваше ім'я" required>
+            <input type="email" id="email" placeholder="Ваш email" required>
+            <textarea id="message" placeholder="Ваше повідомлення" required></textarea>
+            <button id="submitButton">Отправить</button>
+    </section>
+    <footer>
+        <p> 2024 Мое Портфолио</p>
+    </footer>
+    <script src="code2.js"></script>
+</body>
+
+</html>
